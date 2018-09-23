@@ -1,0 +1,566 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"32 /opt/microchip/xc8/v1.21/sources/common/abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"34 /opt/microchip/xc8/v1.21/sources/common/abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"37 /opt/microchip/xc8/v1.21/sources/common/altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"43 /opt/microchip/xc8/v1.21/sources/common/altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 /opt/microchip/xc8/v1.21/sources/common/attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"38 /opt/microchip/xc8/v1.21/sources/common/attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 /opt/microchip/xc8/v1.21/sources/common/awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"33 /opt/microchip/xc8/v1.21/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 /opt/microchip/xc8/v1.21/sources/common/bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"493 /opt/microchip/xc8/v1.21/sources/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"64 /opt/microchip/xc8/v1.21/sources/common/double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"89 /opt/microchip/xc8/v1.21/sources/common/fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"50 /opt/microchip/xc8/v1.21/sources/common/fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"51 /opt/microchip/xc8/v1.21/sources/common/flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"16 /opt/microchip/xc8/v1.21/sources/common/flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"63 /opt/microchip/xc8/v1.21/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"22 /opt/microchip/xc8/v1.21/sources/common/flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"44 /opt/microchip/xc8/v1.21/sources/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"87 /opt/microchip/xc8/v1.21/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 /opt/microchip/xc8/v1.21/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 /opt/microchip/xc8/v1.21/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 /opt/microchip/xc8/v1.21/sources/common/ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"22 /opt/microchip/xc8/v1.21/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 /opt/microchip/xc8/v1.21/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 /opt/microchip/xc8/v1.21/sources/common/lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"28 /opt/microchip/xc8/v1.21/sources/common/lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"31 /opt/microchip/xc8/v1.21/sources/common/lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"36 /opt/microchip/xc8/v1.21/sources/common/lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 /opt/microchip/xc8/v1.21/sources/common/lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 /opt/microchip/xc8/v1.21/sources/common/lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"31 /opt/microchip/xc8/v1.21/sources/common/lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v1.21/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 /opt/microchip/xc8/v1.21/sources/common/lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"29 /opt/microchip/xc8/v1.21/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 /opt/microchip/xc8/v1.21/sources/common/tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/common/wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"9 /opt/microchip/xc8/v1.21/sources/pic18/d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 0 0 ]
+"5 /opt/microchip/xc8/v1.21/sources/pic18/d1tcyx.c
+[v _Delay1TCYx Delay1TCYx `(v  1 e 0 0 ]
+"21 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/hc595.c
+[v _hc595_funcion_str hc595_funcion_str `(v  1 e 0 0 ]
+"31
+[v _hc595_x hc595_x `(v  1 e 0 0 ]
+"51
+[v _load_col_bmp load_col_bmp `(v  1 e 0 0 ]
+"95
+[v _load_clear load_clear `(v  1 e 0 0 ]
+"3 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/info_bmp.h
+[s S298 . 9 `us 1 n_bits 2 0 `us 1 width 2 2 `us 1 high 2 4 `us 1 size 2 6 `uc 1 n_headers_bmp 1 8 ]
+"11 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/info_bmp.c
+[v _read_info_bmp read_info_bmp `(S298  1 e 9 0 ]
+"45
+[v _r_width r_width `(us  1 e 2 0 ]
+"58
+[v _r_high r_high `(us  1 e 2 0 ]
+"72
+[v _r_n_bits r_n_bits `(us  1 e 2 0 ]
+"82
+[v _r_size r_size `(us  1 e 2 0 ]
+"30 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/main.c
+[v _main main `(v  1 e 0 0 ]
+"58
+[v _ConfigPorts ConfigPorts `(v  1 e 0 0 ]
+"11 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/read_bmp.c
+[v _read_bmp read_bmp `(v  1 e 0 0 ]
+"22
+[v _read_bmp_start read_bmp_start `(v  1 e 0 0 ]
+"7 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/uart_output.c
+[v _UARTInit UARTInit `(v  1 e 0 0 ]
+"33
+[v _UARTPutChar UARTPutChar `(v  1 e 0 0 ]
+"41
+[v _UART_String UART_String `(v  1 e 0 0 ]
+"44 /opt/microchip/xc8/v1.21/include/pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"264
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S39 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"308
+[s S48 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S57 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S66 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S68 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S71 . 1 `S39 1 . 1 0 `S48 1 . 1 0 `S57 1 . 1 0 `S66 1 . 1 0 `S68 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES71  1 e 1 @3969 ]
+"442
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"626
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"767
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+[s S143 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1143
+[s S152 . 1 `uc 1 LA0 1 0 :1:0 
+]
+[s S154 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+]
+[s S157 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LA2 1 0 :1:2 
+]
+[s S160 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LA3 1 0 :1:3 
+]
+[s S163 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LA4 1 0 :1:4 
+]
+[s S166 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LA5 1 0 :1:5 
+]
+[s S169 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LA6 1 0 :1:6 
+]
+[s S172 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S175 . 1 `S143 1 . 1 0 `S152 1 . 1 0 `S154 1 . 1 0 `S157 1 . 1 0 `S160 1 . 1 0 `S163 1 . 1 0 `S166 1 . 1 0 `S169 1 . 1 0 `S172 1 . 1 0 ]
+[v _LATAbits LATAbits `VES175  1 e 1 @3977 ]
+"1407
+[v _LATCbits LATCbits `VES175  1 e 1 @3979 ]
+"1539
+[v _LATDbits LATDbits `VES175  1 e 1 @3980 ]
+"1725
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1946
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2167
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S504 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2199
+[s S513 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S522 . 1 `S504 1 . 1 0 `S513 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES522  1 e 1 @3988 ]
+"2388
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2609
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S645 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2940
+[s S654 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S657 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S660 . 1 `S645 1 . 1 0 `S654 1 . 1 0 `S657 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES660  1 e 1 @3998 ]
+[s S591 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3392
+[s S600 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S603 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S606 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S609 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S612 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S614 . 1 `S591 1 . 1 0 `S600 1 . 1 0 `S603 1 . 1 0 `S606 1 . 1 0 `S609 1 . 1 0 `S612 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES614  1 e 1 @4011 ]
+"3560
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S681 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3620
+[s S690 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S693 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S696 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S699 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S702 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S705 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S708 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S710 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S713 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S716 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S718 . 1 `S681 1 . 1 0 `S690 1 . 1 0 `S693 1 . 1 0 `S696 1 . 1 0 `S699 1 . 1 0 `S702 1 . 1 0 `S705 1 . 1 0 `S708 1 . 1 0 `S710 1 . 1 0 `S713 1 . 1 0 `S716 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES718  1 e 1 @4012 ]
+"3857
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3879
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S545 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4534
+[s S554 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S559 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S562 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S565 . 1 `S545 1 . 1 0 `S554 1 . 1 0 `S559 1 . 1 0 `S562 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES565  1 e 1 @4024 ]
+"354 /opt/microchip/xc8/v1.21/sources/common/doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"7 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/bmp.h
+[v _bmp bmp `C[6760]uc  1 e 6760 0 ]
+"219
+[v _start start `C[2770]uc  1 e 2770 0 ]
+"7 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/file.h
+[v _table table `C[4]uc  1 e 4 0 ]
+"138
+[v _train train `C[1]uc  1 e 1 0 ]
+"30 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"55
+} 0
+"11 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/read_bmp.c
+[v _read_bmp read_bmp `(v  1 e 0 0 ]
+{
+[s S298 . 9 `us 1 n_bits 2 0 `us 1 width 2 2 `us 1 high 2 4 `us 1 size 2 6 `uc 1 n_headers_bmp 1 8 ]
+"14
+[v read_bmp@my_info_bmp my_info_bmp `S298  1 a 9 69 ]
+"19
+} 0
+"22
+[v _read_bmp_start read_bmp_start `(v  1 e 0 0 ]
+{
+[s S298 . 9 `us 1 n_bits 2 0 `us 1 width 2 2 `us 1 high 2 4 `us 1 size 2 6 `uc 1 n_headers_bmp 1 8 ]
+"25
+[v read_bmp_start@my_info_bmp my_info_bmp `S298  1 a 9 69 ]
+"30
+} 0
+"3 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/info_bmp.h
+[s S298 . 9 `us 1 n_bits 2 0 `us 1 width 2 2 `us 1 high 2 4 `us 1 size 2 6 `uc 1 n_headers_bmp 1 8 ]
+"11 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/info_bmp.c
+[v _read_info_bmp read_info_bmp `(S298  1 e 9 0 ]
+{
+"15
+[v read_info_bmp@my_string_tmp my_string_tmp `[16]uc  1 a 16 44 ]
+"13
+[v read_info_bmp@my_bmp my_bmp `S298  1 a 9 60 ]
+"11
+[v read_info_bmp@p_bmp p_bmp `*.25uc  1 p 2 32 ]
+"42
+} 0
+"493 /opt/microchip/xc8/v1.21/sources/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S898 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+"533
+[u S901 . 5 `ui 1 _val 2 0 `S898 1 _str 5 0 ]
+[v sprintf@_val _val `S901  1 a 5 26 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 22 ]
+"499
+[v sprintf@c c `c  1 a 1 31 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 25 ]
+"506
+[v sprintf@prec prec `c  1 a 1 24 ]
+"493
+[v sprintf@sp sp `*.39uc  1 p 2 14 ]
+[v sprintf@f f `*.25Cuc  1 p 2 16 ]
+"1548
+} 0
+"10 /opt/microchip/xc8/v1.21/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"10
+[v ___lwmod@dividend dividend `ui  1 p 2 8 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 10 ]
+"26
+} 0
+"10 /opt/microchip/xc8/v1.21/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"10
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"41 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/uart_output.c
+[v _UART_String UART_String `(v  1 e 0 0 ]
+{
+[v UART_String@_string _string `*.35uc  1 p 2 1 ]
+"43
+} 0
+"33
+[v _UARTPutChar UARTPutChar `(v  1 e 0 0 ]
+{
+[v UARTPutChar@Dato Dato `uc  1 p 1 0 ]
+"39
+} 0
+"95 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/hc595.c
+[v _load_clear load_clear `(v  1 e 0 0 ]
+{
+"96
+[v load_clear@dec dec `i  1 a 2 9 ]
+"101
+} 0
+"51
+[v _load_col_bmp load_col_bmp `(v  1 e 0 0 ]
+{
+"52
+[v load_col_bmp@n_bytes n_bytes `us  1 a 2 27 ]
+"55
+[v load_col_bmp@counter_bytes counter_bytes `us  1 a 2 25 ]
+"54
+[v load_col_bmp@n_ic_tmp n_ic_tmp `us  1 a 2 23 ]
+"57
+[v load_col_bmp@height_bmp height_bmp `Cus  1 a 2 21 ]
+"51
+[v load_col_bmp@p_bmp p_bmp `*.25uc  1 p 2 8 ]
+[s S298 . 9 `us 1 n_bits 2 0 `us 1 width 2 2 `us 1 high 2 4 `us 1 size 2 6 `uc 1 n_headers_bmp 1 8 ]
+[v load_col_bmp@tmp_info_bmp tmp_info_bmp `S298  1 p 9 10 ]
+"93
+} 0
+"5 /opt/microchip/xc8/v1.21/sources/common/wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"6
+[v ___wmul@product product `ui  1 a 2 4 ]
+"5
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"31
+} 0
+"31 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/hc595.c
+[v _hc595_x hc595_x `(v  1 e 0 0 ]
+{
+"33
+[v hc595_x@c c `ui  1 a 2 6 ]
+"32
+[v hc595_x@i i `ui  1 a 2 4 ]
+"31
+[v hc595_x@ui8_tmp ui8_tmp `uc  1 p 1 1 ]
+"48
+} 0
+"21
+[v _hc595_funcion_str hc595_funcion_str `(v  1 e 0 0 ]
+{
+"28
+} 0
+"5 /opt/microchip/xc8/v1.21/sources/pic18/d1tcyx.c
+[v _Delay1TCYx Delay1TCYx `(v  1 e 0 0 ]
+{
+[v Delay1TCYx@unit unit `uc  1 p 1 0 ]
+"9
+} 0
+"9 /opt/microchip/xc8/v1.21/sources/pic18/d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 0 0 ]
+{
+[v Delay1KTCYx@unit unit `uc  1 p 1 0 ]
+"13
+} 0
+"7 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/uart_output.c
+[v _UARTInit UARTInit `(v  1 e 0 0 ]
+{
+"29
+} 0
+"58 /home/optimus/Documents/Microchontroller/humman_propeller/HummanPropellerP18F45xx.X/main.c
+[v _ConfigPorts ConfigPorts `(v  1 e 0 0 ]
+{
+"67
+} 0

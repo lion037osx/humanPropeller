@@ -1,0 +1,26 @@
+_load_clear: CODE, 21186 0 48
+__stringdata: MEDIUMCONST, 32633 0 134
+_load_col_bmp: CODE, 21854 0 344
+_ConfigPorts: CODE, 21144 0 42
+_Delay1KTCYx: CODE, 21078 0 14
+_dpowers: MEDIUMCONST, 23088 0 10
+_table: MEDIUMCONST, 23098 0 4
+_read_bmp: CODE, 21356 0 64
+_bmp: MEDIUMCONST, 23103 0 6760
+_main: CODE, 21652 0 100
+_Delay1TCYx: CODE, 21048 0 8
+__initialization: CODE, 21056 0 0
+___lwdiv: CODE, 21566 0 86
+_read_info_bmp: CODE, 22580 0 508
+_read_bmp_start: CODE, 21292 0 64
+_sprintf: CODE, 22198 0 382
+_start: MEDIUMCONST, 29863 0 2770
+___lwmod: CODE, 21420 0 70
+_UARTInit: CODE, 21092 0 18
+_hc595_x: CODE, 21752 0 102
+_UART_String: CODE, 21490 0 76
+_train: MEDIUMCONST, 23102 0 1
+_hc595_funcion_str: CODE, 21110 0 34
+___wmul: CODE, 21234 0 58
+_UARTPutChar: CODE, 21066 0 12
+Total: 11709
